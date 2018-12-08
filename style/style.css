@@ -1,0 +1,49 @@
+form {
+    margin: 0 auto;
+    padding: 10px;
+    width: 600px;
+    /*border: 1px solid red;*/
+}
+
+label {
+    width: 100px;
+    text-align: left;
+  }
+
+  input, textarea {
+      font: 16px sans-seriff;
+      border: 1px solid gray;
+  }
+  input:hover, textarea:hover {
+    border: 1px solid black;
+  }
+
+  p {
+      margin-bottom: 0;
+      margin-top: 5px;
+  }
+  .personal-information div,
+  .registration div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .button [type="submit"] {
+      background-color: white;
+      text-align: center;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+      color: black;
+  }
+
+  .button [type="submit"]:hover,
+  button:hover {
+    border: 1px solid gray;
+    background-color: gray;
+    color: white;
+  }
+
+  section {
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
