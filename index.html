@@ -14,24 +14,24 @@
             <fieldset>
                 <legend>Personal Information</legend>
                     <div>
-                        <label for="user-surname">Surname:</label>
-                        <input type="text" name="user-surname" id="user-surname" required>
+                        <label for="surname">Surname:</label>
+                        <input type="text" name="surname" id="surname" required>
                     </div>
                     <div>
-                        <label for="user-name">Name:</label>
-                        <input type="text" name="user-name" id="user-name">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name">
                     </div>
                     <div>
-                        <label>How old are you?:</label>
-                        <input type="number" min="18" max="100" step="1">
+                        <label for="age">How old are you?:</label>
+                        <input type="number" name="age" id="age" min="18" max="100" step="1">
                     </div>
                     <div>
-                        <label>Full date of birth:</label>
-                        <input type="date">
+                        <label for="bdate">Full date of birth:</label>
+                        <input type="date" name="bdate" id="bdate">
                     </div>
                     <div>
-                        <label>I accept the terms of the agreement</label>
-                        <input type="checkbox">
+                        <label for="choiсe">I accept the terms of the agreement</label>
+                        <input type="checkbox" name="choiсe" id="choiсe" required>
                     </div>
              </fieldset>
         </section>
@@ -39,12 +39,12 @@
             <fieldset>
                 <legend class="registration">Registration</legend>
                 <div>
-                    <label>E-mail</label>
-                    <input type="email" name="user-email" id="mail">
+                    <label for="mail">E-mail</label>
+                    <input type="email" name="email" id="mail" required>
                 </div>
                 <div>
                     <label>Password</label>
-                    <input type="password" name="password" id="rassword">
+                    <input type="password" name="password">
                 </div>
             </fieldset>
         </section>
@@ -53,31 +53,31 @@
                 <legend>An interesting fact about you!</legend>
                 <p>Do you love cats?</p>
                     <div>
-                        <input type="radio" value="Yes" name="Cat" id="yes">
+                        <input type="radio" value="Yes" name="Cats?" id="yes" checked>
                         <label for="yes">Yes</label>
                     </div>
                     <div>
-                        <input type="radio" value="Not" name="Cat" id="not">
+                        <input type="radio" value="Not" name="Cats?" id="not">
                         <label for="not">Not</label>
                     </div>
                 <p>What is your favourite color?</p>
                     <input type="color" name="color" id="color">
                 <p>What time do you go to to bed?</p>
-                    <input type="time" name="time" id="time">
+                    <input type="time" name="time" id="time" required>
                 <p>What your favourite brand of cars?</p>
-                    <select name="car" id="user-car" multiple>
+                    <select name="car" id="car" multiple>
                         <option value="BMW">BMW</option>
                         <option value="Audi">Audi</option>
                         <option value="Lada">Lada</option>
                     </select>
                 <p>How do you rate our work?</p>
-                    <input type="range" name="rate" id="rate">
+                    <input type="range" name="rate:" id="rate">
             </fieldset>
         </section>
         <section class="comments">
             <fieldset>
                 <legend>Commments</legend>
-                <textarea placeholder="comments"></textarea>
+                <textarea placeholder="comments" name="feedback"></textarea>
             </fieldset>
         </section>
         <section class="buttons-section">
