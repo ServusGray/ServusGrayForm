@@ -14,12 +14,12 @@
             <fieldset>
                 <legend>Personal Information</legend>
                     <div>
-                        <label>Surname:</label>
-                        <input required type="text" name="surname">
+                        <label for="user-surname">Surname:</label>
+                        <input type="text" name="user-surname" id="user-surname" required>
                     </div>
                     <div>
-                        <label>Name:</label>
-                        <input type="text">
+                        <label for="user-name">Name:</label>
+                        <input type="text" name="user-name" id="user-name">
                     </div>
                     <div>
                         <label>How old are you?:</label>
@@ -53,12 +53,12 @@
                 <legend>An interesting fact about you!</legend>
                 <p>Do you love cats?</p>
                     <div>
-                        <input type="radio" value="Yes" name="Cat">
-                        <label>Yes</label>
+                        <input type="radio" value="Yes" name="Cat" id="yes">
+                        <label for="yes">Yes</label>
                     </div>
                     <div>
-                        <input type="radio" value="Not" name="Cat">
-                        <label>Not</label>
+                        <input type="radio" value="Not" name="Cat" id="not">
+                        <label for="not">Not</label>
                     </div>
                 <p>What is your favourite color?</p>
                     <input type="color" name="color" id="color">
